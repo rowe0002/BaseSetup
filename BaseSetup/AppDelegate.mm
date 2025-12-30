@@ -5,7 +5,8 @@
 //  Created by Robert Rowe on 12/30/25.
 //
 
-#import "AppDelegate.h"
+#import  "AppDelegate.h"
+#include "Pfx.hpp"
 
 @interface AppDelegate ()
 
@@ -14,19 +15,16 @@
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
+    
 }
 
-
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+- (void)applicationWillTerminate:(NSNotification *)aNotification
+{
+    
 }
 
-
-- (BOOL)applicationSupportsSecureRestorableState:(NSApplication *)app {
-    return YES;
-}
-
+- (BOOL)applicationSupportsSecureRestorableState:(NSApplication *)app { return YES; }
 
 @end
