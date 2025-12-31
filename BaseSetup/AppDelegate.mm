@@ -7,6 +7,7 @@
 
 #import  "AppDelegate.h"
 #include "Pfx.hpp"
+#include "BaseSetup.hpp"
 
 @interface AppDelegate ()
 
